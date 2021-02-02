@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Vignesh International School",
+    "slug": "add-student-vis",
+    "version": "1.0.10",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/inbo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.aravind.s.school",
+      "versionCode": 10,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
