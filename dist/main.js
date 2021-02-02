@@ -1,0 +1,1 @@
+(()=>{var e={138:e=>{e.exports=(e,r)=>("development"===r.mode&&(t.devtool="source-map"),r.mode,t);var t={entry:"./app.js",output:{path:path.resolve("/","dist"),filename:"my-first-webpack.bundle.js"}}}},t={};!function r(o){if(t[o])return t[o].exports;var p=t[o]={exports:{}};return e[o](p,p.exports,r),p.exports}(138)})();
