@@ -1,11 +1,9 @@
 import React from 'react';
 import { createAppContainer, createSwitchNavigator, } from 'react-navigation';
-//import LoginScreen from './screens/LoginScreen';
-//import { AppDrawerNavigator } from './components/AppDrawerNavigator';
-//import { AppDrawerNavigatorTeacher } from './components/AppDrawerNavigatorTeacher';
-//import { AppDrawerNavigatorhod } from './components/AppDrawerNavigatorhod';
-import AddStudent from './screens/addStudent'
-//import {AppDrawerNavigatorAdmin} from './components/AppDrawerNavigatorAdmin'
+import { AppDrawerNavigator } from './src/components/AppDrawerNavigator'
+import LoginScreen from './src/screens/LoginScreen';
+import SignupScreen from './src/screens/SignupScreen';
+import Home from "./src/screens/Home";
 
 export default function App() {
   return (
@@ -14,12 +12,9 @@ export default function App() {
 }
 
 const switchNavigator = createSwitchNavigator({
-  AddStudent: { screen: AddStudent },
-  //LoginScreen: { screen: LoginScreen },
-  //AppDrawerNavigatorTeacher: { screen: AppDrawerNavigatorTeacher },
-  //AppDrawerNavigatorhod: { screen: AppDrawerNavigatorhod },
-  //Drawer: { screen: AppDrawerNavigator },
-  //AppDrawerNavigatorAdmin: { screen: AppDrawerNavigatorAdmin },
+  LoginScreen: { screen: LoginScreen },
+  SignupScreen: { screen: SignupScreen },
+  AppDrawerNavigator: { screen: AppDrawerNavigator },
 })
 
 const AppContainer = createAppContainer(switchNavigator);

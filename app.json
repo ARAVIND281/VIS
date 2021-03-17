@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Vignesh International School",
-    "slug": "add-student-vis",
-    "version": "1.0.10",
+    "name": "Golden crop",
+    "slug": "golden_crop",
+    "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "splash": {
-      "image": "./assets/inbo.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,12 +20,16 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.aravind.s.school",
-      "versionCode": 10,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aravind.s.goldenCrop",
+      "versionCode": 1,
       "permissions": []
     },
     "web": {
-      "favicon": "./assets/icon.png"
+      "favicon": "./assets/logo.png"
     }
   }
 }
